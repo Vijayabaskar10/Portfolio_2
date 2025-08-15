@@ -1,0 +1,17 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3a7bd5"/>
+    <stop offset="50%" stop-color="#7a5cff"/>
+    <stop offset="100%" stop-color="#b46cff"/>
+  </linearGradient>
+</defs>
+<g filter="url(#f1)">
+  <path d="M164 111C231 51 330 40 419 66C509 92 589 156 659 230C729 304 789 388 789 473C789 558 729 644 645 667C561 690 453 649 359 603C265 557 185 506 128 438C71 370 37 285 64 204C91 124 97 171 164 111Z" fill="url(#g1)" opacity="0.9"/>
+</g>
+<defs>
+  <filter id="f1">
+    <feGaussianBlur stdDeviation="20" />
+  </filter>
+</defs>
+</svg>
