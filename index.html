@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijayabaskar M — Portfolio</title>
+    <meta
+      name="description"
+      content="Java enthusiast & frontend developer. Android, cloud certifications, and hands-on GitHub projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/favicon.png" />
+  </head>
+  <body>
+    <!-- Scroll progress -->
+    <div class="scroll-progress"></div>
+
+    <header class="site-header" id="site-header">
+      <a href="#" class="logo">
+        <span class="logo-mark">VB</span>
+        <span class="logo-text">Vijayabaskar</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" hidden />
+      <label for="menu-toggle" class="menu-btn" aria-label="Open Menu">
+        <i class="bx bx-menu"></i>
+      </label>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#coursework" class="nav-link">Coursework</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certs" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Toggle theme"
+        >
+          <i class="bx bx-moon"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="section hero">
+        <div class="hero__content container reveal">
+          <div class="hero__text">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1 class="title">
+              Vijayabaskar —
+              <span class="gradient-text">Java Enthusiast</span> & Frontend
+              Developer
+            </h1>
+            <p class="subtitle">
+              I build clean, responsive interfaces and write efficient Java.
+              Exploring mastering DSA, and shipping real projects.
+            </p>
+            <div class="hero__cta">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-ghost">Contact Me</a>
+            </div>
+            <div class="hero__badge">
+              <span class="dot"></span> Open to internships & collabs
+            </div>
+          </div>
+          <div class="hero__visual">
+            <img
+              src="assets/img/blob.svg"
+              alt="Decorative gradient blob"
+              class="blob floating"
+            />
+            <div class="badge-card glass floating-slow">
+              <i class="bx bxl-java"></i>
+              <div>Core Java, OOP, Exceptions, Threads</div>
+            </div>
+            <div class="badge-card glass floating-slow alt">
+              <div>Frontend Design</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COURSEWORK -->
+      <section id="coursework" class="section alt-bg">
+        <div class="container reveal">
+          <h2 class="section-title">Coursework</h2>
+          <div class="split">
+            <div class="card lift">
+              <h3>Currently Learning</h3>
+              <ul class="list">
+                <li>Java</li>
+                <li>DSA: Arrays, Linked Lists, Stacks, Queues</li>
+              </ul>
+            </div>
+            <div class="card lift">
+              <h3>Completed</h3>
+              <ul class="list">
+                <li>Basics of Java Programming</li>
+                <li>Introduction to HTML/CSS/JS</li>
+                <li>NPTEL Java Programming</li>
+                <li>OOP Principles</li>
+                <li>Data Structures & Algorithms (foundations)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <div class="container reveal">
+          <h2 class="section-title">Skills</h2>
+          <div class="grid cards">
+            <!-- Interactive Skill Cards -->
+            <div class="skill-card interactive" data-skill="Java">
+              <div class="icon"><i class="bx bxl-java"></i></div>
+              <h3>Java</h3>
+              <p>Core Java, OOP, exceptions, multithreading.</p>
+              <div class="meter"><span style="--pct: 75%"></span></div>
+            </div>
+
+            <div class="skill-card interactive" data-skill="JavaScript">
+              <div class="icon"><i class="bx bxl-javascript"></i></div>
+              <h3>JavaScript</h3>
+              <p>DOM, fetch, basic SPA patterns.</p>
+              <div class="meter"><span style="--pct: 65%"></span></div>
+            </div>
+
+            <div class="skill-card interactive" data-skill="HTML/CSS">
+              <div class="icon"><i class="bx bx-code-curly"></i></div>
+              <h3>HTML & CSS</h3>
+              <p>Semantic HTML, Flexbox, responsive layouts.</p>
+              <div class="meter"><span style="--pct: 80%"></span></div>
+            </div>
+
+            <div class="skill-card interactive" data-skill="DSA">
+              <div class="icon"><i class="bx bx-sitemap"></i></div>
+              <h3>Data Structures</h3>
+              <p>
+                Arrays, Linked Lists, Stacks, Queues; sorting/searching basics.
+              </p>
+              <div class="meter"><span style="--pct: 55%"></span></div>
+            </div>
+
+            <div class="skill-card interactive" data-skill="DBMS">
+              <div class="icon"><i class="bx bx-data"></i></div>
+              <h3>DBMS</h3>
+              <p>Tables, keys, ER diagrams, fundamentals.</p>
+              <div class="meter"><span style="--pct: 60%"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section alt-bg">
+        <div class="container reveal">
+          <div class="section-header">
+            <h2 class="section-title">Projects</h2>
+            <a
+              class="btn btn-ghost small"
+              href="https://github.com/Vijayabaskar10"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="bx bxl-github"></i> See all
+            </a>
+          </div>
+          <div id="project-grid" class="grid project-grid">
+            <!-- Filled dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section id="certs" class="section">
+        <div class="container reveal">
+          <h2 class="section-title">Certifications</h2>
+          <div class="timeline">
+            <div class="t-item">
+              <span class="t-dot"></span>
+              <div class="t-card">
+                <h3>NPTEL — Programming in Java</h3>
+                <p>Core Java fundamentals, OOP, exceptions, multithreading.</p>
+              </div>
+            </div>
+            <div class="t-item">
+              <span class="t-dot"></span>
+              <div class="t-card">
+                <h3>Cloud Fundamentals</h3>
+                <p>
+                  Intro to cloud concepts (IaaS, PaaS, SaaS), scalability, basic
+                  services.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section alt-bg">
+        <div class="container reveal">
+          <h2 class="section-title">Contact</h2>
+          <p class="center">
+            Want to collaborate or just say hi? Reach me here:
+          </p>
+          <div class="contact-row">
+            <a
+              class="contact-chip lift"
+              href="https://github.com/Vijayabaskar10"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="bx bxl-github"></i> GitHub</a
+            >
+            <a
+              class="contact-chip lift"
+              href="https://www.linkedin.com/in/vjbaskar10"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="bx bxl-linkedin-square"></i> LinkedIn</a
+            >
+            <a class="contact-chip lift" href="mailto:vijayabaskarm10@gmail.com"
+              ><i class="bx bx-envelope"></i> Email</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 <strong>Vijayabaskar M</strong>.</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Go to top">↑</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
